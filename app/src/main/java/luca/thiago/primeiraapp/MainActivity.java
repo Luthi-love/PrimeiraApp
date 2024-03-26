@@ -24,7 +24,7 @@ import android.widget.EditText;
                 String textoDigitado = etDigiteAqui.getText().toString();//obtem o texto digitado na caixa de texto.
 
                 Intent i = new Intent (MainActivity.this, NextActivity.class);//faz passar para outra pagina.
-                i.putExtra("texto", textoDigitado);
+                i.putExtra("texto", textoDigitado);//digita o texto
 
                 startActivity(i);
             }
